@@ -12,7 +12,7 @@ const CodedBy: React.FC = () => {
         {" "}
         Frontend Mentor{" "}
       </a>
-      . Coded by{" "}
+      .Coded by{" "}
       <Link href="https://codebyasad.vercel.app/" className="text-indigo-500 px-1">
         {" "}
         Asad Ali{" "}
