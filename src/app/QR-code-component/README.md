@@ -1,0 +1,1 @@
+![Password Generator App](../../../public/QRCode/images/QRCode-preview.png)
