@@ -7,6 +7,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Karla:ital,wght@0,200..800;1,200..800&family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+IN:wght@100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 /* contact us form font end */
 
+/* product card preview font start */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Karla:ital,wght@0,200..800;1,200..800&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+IN:wght@100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* product card preview font end */
+
 @import "tailwindcss";
 
 @theme {
@@ -29,6 +34,16 @@
   --color-green-lighter: hsl(148, 38%, 91%);
   --color-green-medium: hsl(169, 82%, 27%);
   /* contact us variabels end */
+
+
+  /* product preview card variabels start */
+  --font-PPC-fraunces: "Fraunces", serif;
+  --font-PPC-montserrat: "Montserrat", sans-serif;
+  --color-PPC-green-lighter: hsl(158, 36%, 37%);
+  --color-PPC-green-medium: hsl(158, 42%, 18%);
+  --color-PPC-gray: hsl(228, 12%, 48%);
+  --color-PPC-cream: hsl(30, 38%, 92%);
+  /* product preview card variabels end */
 
 
 
@@ -110,6 +125,8 @@
 /* Password generator CSS end */
 
 
+/* Contact Form CSS start */
 .contact-form{
   font-family: var(--font-karla);
 }
+/* Contact Form CSS end */
