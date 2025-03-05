@@ -1,12 +1,13 @@
 import CodedBy from "@/components/CodedBy";
 import { ShoppingCart } from "lucide-react"
+import Image from "next/image";
 
 export default function Component() {
   return (
     <div className="min-h-screen w-full bg-PPC-cream flex flex-col justify-center items-center p-4">
       <div className="product-card bg-white text-PPC-green-medium grid sm:grid-cols-2 m-1.5 rounded-xl overflow-hidden max-w-xl shadow-md">
         <div className="h-50 sm:h-full overflow-hidden flex justify-center items-center">
-          <img src="/product-preview-card/images/image-product.jpg" alt="image product" className="object-center object-fill" />
+          <Image width={1000} height={1000} src="/product-preview-card/images/image-product.jpg" alt="image product" className="object-center object-fill" />
         </div>
         <div className="p-8 flex flex-col justify-between space-y-4">
           <h3 className="font-PPC-montserrat text-PPC-gray text-sm tracking-[.35rem] font-light uppercase">PERFUME</h3>

@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import CountUp from "react-countup";
 import CodedBy from "@/components/CodedBy";
+import Image from "next/image";
 
 interface Stat {
   value: number;
@@ -54,7 +55,9 @@ export default function Component() {
 
         <div className="md:w-1/2 overflow-hidden relative">
           <div className="absolute inset-0 bg-SPC-soft-violet/30"></div>
-          <img
+          <Image
+            width={1000}
+            height={1000}
             src="/stats-preview-card/images/image.jpg"
             alt="Business Insights"
             className="w-full h-full object-cover"
