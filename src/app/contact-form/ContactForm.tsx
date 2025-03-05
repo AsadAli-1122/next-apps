@@ -82,7 +82,7 @@ export default function ContactForm() {
     e.preventDefault();
     if (validateForm()) {
       console.log("Form Submitted Successfully!", formData);
-      toast.success(
+      toast.custom(
         <div className="bg-teal-950/90 text-green-lighter p-5 rounded-lg space-y-3">
           <div className="flex gap-3">
             <CircleCheck strokeWidth={1.5} />
