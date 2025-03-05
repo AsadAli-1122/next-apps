@@ -9,8 +9,8 @@ const QRCard = () => {
 
   useEffect(() => {
     const qrCode = new QRCodeStyling({
-      width: 200,
-      height: 200,
+      width: 150,
+      height: 150,
       data: "https://www.frontendmentor.io",
       dotsOptions: {
         color: "#ffffff",

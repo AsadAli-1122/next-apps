@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { ArrowRight, Copy, CopyCheck } from "lucide-react";
 import copy from "clipboard-copy";
+import CodedBy from "@/components/CodedBy";
 
 const generatePassword = (
   length: number,
@@ -187,6 +188,9 @@ export default function PasswordGenerator() {
             <span>Generate</span> <ArrowRight height={18} />
           </button>
         </div>
+      </div>
+      <div className="flex py-4 text-center text-xs text-gray">
+      <CodedBy />
       </div>
     </div>
     </>

@@ -14,8 +14,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/contactUs/images/contact-form-preview.png", 
-        width: 910,
-        height: 822,
+        width: 2000,
+          height: 1000,
         alt: "Contact Us Preview",
       },
     ],
