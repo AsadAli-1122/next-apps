@@ -113,7 +113,7 @@ export default function ContactForm() {
         onSubmit={handleSubmit}
         className="space-y-4 bg-white p-8 w-full max-w-2xl rounded-2xl"
       >
-        <h2 className="text-3xl font-semibold mb-4 ">Contact Us</h2>
+        <h1 className="text-3xl font-semibold mb-4 ">Contact Us</h1>
         <div className="grid sm:grid-cols-2 gap-4">
           <InputField
             label="First Name"
