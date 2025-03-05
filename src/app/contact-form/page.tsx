@@ -7,14 +7,13 @@ export const metadata: Metadata = {
     icons: {
         icon: "/contactUs/images/favicon-32x32.png",
     },
-
   openGraph: {
     title: "Contact Us - Get in Touch",
     description: "Fill out the contact form and we'll get back to you as soon as possible.",
     url: "https://next-apps-rho.vercel.app/contact-form",
     images: [
       {
-        url: "/contactUs/images/contact-form-preview.jpg", 
+        url: "/contactUs/images/contact-form-preview.png", 
         width: 910,
         height: 822,
         alt: "Contact Us Preview",
