@@ -1,0 +1,1 @@
+![Multi Step Form](../../../public/multi-step-form/images/multi-step-form-preview.png)
