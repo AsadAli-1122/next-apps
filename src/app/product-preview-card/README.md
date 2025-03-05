@@ -1,1 +1,1 @@
-![Contact Us Form](../../../public/product-preview-card/images/product-preview-card-preview.png)
+![Product Preview Card](../../../public/product-preview-card/images/product-preview-card-preview.png)
