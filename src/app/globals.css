@@ -1,8 +1,17 @@
+/* Password generator font start */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+IN:wght@100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* Password generator font end */
+
+
+/* contact us form font start */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Karla:ital,wght@0,200..800;1,200..800&family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+IN:wght@100..400&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* contact us form font end */
 
 @import "tailwindcss";
 
 @theme {
+
+  /* Password generator variabels start */
   --font-mono: "JetBrains Mono", monospace;
   --color-gray: hsl(251, 9%, 53%);
   --color-darkGrey: hsl(248, 10%, 15%);
@@ -12,8 +21,22 @@
   --color-yellow: hsl(42, 91%, 68%);
   --color-orange: hsl(13, 95%, 66%);
   --color-red: hsl(0, 91%, 63%);
+  /* Password generator variabels end */
+  
+  
+  /* contact us variabels start */
+  --font-karla: "Karla", sans-serif;
+  --color-green-lighter: hsl(148, 38%, 91%);
+  --color-green-medium: hsl(169, 82%, 27%);
+  /* contact us variabels end */
+
+
+
+
+
 }
 
+/* Password generator CSS start */
 .slider {
   appearance: none;
   -webkit-appearance: none;
@@ -84,4 +107,9 @@
   clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
 }
 
+/* Password generator CSS end */
 
+
+.contact-form{
+  font-family: var(--font-karla);
+}
