@@ -35,9 +35,9 @@ const QRCard = () => {
         <div className="bg-[#2B7BFA] p-4 rounded-lg aspect-square flex justify-center items-center">
           <div ref={qrRef}></div>
         </div>
-        <h2 className="text-xl font-bold mt-6">
+        <h1 className="text-xl font-bold mt-6">
           Improve your front-end skills by building projects
-        </h2>
+        </h1>
         <p className="text-gray-500 text-sm mt-4">
           Scan the QR code to visit Frontend Mentor and take your coding skills
           to the next level
