@@ -17,6 +17,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 /* stats card preview font end */
 
+/* article card preview font start */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+/* article card preview font end */
+
 @import "tailwindcss";
 
 @theme {
@@ -56,6 +60,14 @@
   --color-SPC-dark-desaturated-blue: hsl(244, 38%, 16%);
   --color-SPC-soft-violet: hsl(277, 64%, 61%);
   /* stats preview card variabels end */
+
+  /* article preview card variabels start */
+  --font-APC-manrope: "Manrope", sans-serif;
+  --color-APC-dark-grayish-blue: hsl(217, 19%, 35%);
+  --color-APC-desaturated-blue: hsl(214, 17%, 51%);
+  --color-APC-grayish-blue: hsl(212, 23%, 69%);
+  --color-APC-light-grayish-blue: hsl(210, 46%, 95%);
+  /* article preview card variabels end */
 
 
 

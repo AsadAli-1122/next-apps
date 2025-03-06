@@ -1,0 +1,1 @@
+![Stats Preview Card](../../../public/stats-preview-card/images/stats-preview-card-preview.png)
