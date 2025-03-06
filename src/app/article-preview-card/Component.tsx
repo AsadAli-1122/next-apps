@@ -39,7 +39,7 @@ export default function Component() {
               <Image width={100} height={100} src="/article-preview-card/images/avatar-michelle.jpg" alt="" />
             </div>
             <div className="space-y-1">
-              <h3 className="font-semibold text-sm text-APC-dark-grayish-blue tracking-wide">Michelle Appleton</h3>
+              <h2 className="font-semibold text-sm text-APC-dark-grayish-blue tracking-wide">Michelle Appleton</h2>
               <p className="font-medium text-xs text-APC-grayish-blue">28 Jun 2020</p>
             </div>
             <div 
