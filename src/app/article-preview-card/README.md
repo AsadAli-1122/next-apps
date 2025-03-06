@@ -1,1 +1,1 @@
-![Stats Preview Card](../../../public/stats-preview-card/images/stats-preview-card-preview.png)
+![Stats Preview Card](../../../public/article-preview-card/images/article-preview-card-preview.png)
