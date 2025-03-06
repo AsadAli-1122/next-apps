@@ -8,9 +8,9 @@ import { useState, useEffect } from "react";
 export default function Component() {
   const [isShareActive, setIsShareActive] = useState(false);
 
-  useEffect(() => {
-    const handleClickOutside = (event: any) => {
-      if (!event.target.closest(".share-container")) {
+  useEffect(() => {  
+    const handleClickOutside = (event: MouseEvent) => {
+      if (!(event.target as HTMLElement).closest(".share-container")) {
         setIsShareActive(false);
       }
     };
@@ -32,7 +32,7 @@ export default function Component() {
           </h1>
           <p className="text-sm text-APC-desaturated-blue">
             Ever been in a room and felt like something was missing? <br />
-            Perhaps it felt slightly bare and uninviting. I've got some simple tips to help you make any room feel complete.
+            Perhaps it felt slightly bare and uninviting. I&apos;ve got some simple tips to help you make any room feel complete.
           </p>
           <div className="flex items-center space-x-4">
             <div className="w-10 h-10 rounded-full overflow-hidden shadow-lg">
