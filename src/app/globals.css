@@ -25,6 +25,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 /* single page price font end */
 
+/* order summary font start */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+/* order summary font end */
+
 @import "tailwindcss";
 
 @theme {
@@ -81,7 +85,14 @@
   --color-SPG-grayish-blue: hsl(218, 22%, 67%);
   /* single price grid variabels end */
 
-
+  /* order summary variabels start */
+  --font-OC-red-hat-display: "Red Hat Display", sans-serif;
+  --color-OC-pale-blue: hsl(225, 100%, 94%);
+  --color-OC-bright-blue: hsl(245, 75%, 52%);
+  --color-OC-very-pale-blue: hsl(225, 100%, 98%);
+  --color-OC-desaturated-blue: hsl(224, 23%, 55%);
+  --color-OC-dark-blue: hsl(223, 47%, 23%);
+  /* order summary variabels end */
 
 
 
@@ -167,3 +178,4 @@
   font-family: var(--font-karla);
 }
 /* Contact Form CSS end */
+

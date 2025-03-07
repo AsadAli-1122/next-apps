@@ -11,6 +11,7 @@ export default function Home() {
       <Link href="/stats-preview-card" className="underline hover:text-indigo-600">Stats Preview Card</Link>
       <Link href="/article-preview-card" className="underline hover:text-indigo-600">Article Preview Card</Link>
       <Link href="/single-price-grid" className="underline hover:text-indigo-600">Single Price Grid</Link>
+      <Link href="/order-summary" className="underline hover:text-indigo-600">Order Summary</Link>
     </div>
   );
 }

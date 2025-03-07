@@ -1,0 +1,1 @@
+![Single Price Grid](../../../public/order-summary/images/order-summary-preview.png)
