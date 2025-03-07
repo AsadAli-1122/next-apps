@@ -10,6 +10,7 @@ export default function Home() {
       <Link href="/product-preview-card" className="underline hover:text-indigo-600">Product Preview Card</Link>
       <Link href="/stats-preview-card" className="underline hover:text-indigo-600">Stats Preview Card</Link>
       <Link href="/article-preview-card" className="underline hover:text-indigo-600">Article Preview Card</Link>
+      <Link href="/single-price-grid" className="underline hover:text-indigo-600">Single Price Grid</Link>
     </div>
   );
 }

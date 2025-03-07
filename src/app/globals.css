@@ -21,6 +21,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 /* article card preview font end */
 
+/* single page price font start */
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+/* single page price font end */
+
 @import "tailwindcss";
 
 @theme {
@@ -69,11 +73,20 @@
   --color-APC-light-grayish-blue: hsl(210, 46%, 95%);
   /* article preview card variabels end */
 
+  /* single price grid variabels start */
+  --font-SPG-karla: "Karla", sans-serif;
+  --color-SPG-cyan: hsl(179, 62%, 43%);
+  --color-SPG-bright-yellow: hsl(71, 73%, 54%);
+  --color-SPG-light-gray: hsl(204, 43%, 93%);
+  --color-SPG-grayish-blue: hsl(218, 22%, 67%);
+  /* single price grid variabels end */
+
 
 
 
 
 }
+
 
 /* Password generator CSS start */
 .slider {
