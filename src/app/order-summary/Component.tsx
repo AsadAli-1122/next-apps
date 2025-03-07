@@ -20,10 +20,10 @@ export default function Component() {
             <Music4 width={15} className="group-hover:animate-[spin_3s_ease-in-out_infinite] group-active:animate-[spin_3s_ease-in-out_infinite]" />
             </div>
             <div>
-              <h3 className="text-sm font-extrabold tracking-wider">Annual Plan</h3>
+              <h2 className="text-sm font-extrabold tracking-wider text-OC-dark-blue">Annual Plan</h2>
               <p className="text-[10px] font-semibold tracking-wider text-OC-desaturated-blue">$59.99/year</p>
             </div>
-            <p className="underline text-OC-bright-blue text-xs ml-auto cursor-pointer hover:no-underline">Change</p>
+            <p className="underline text-OC-bright-blue text-xs ml-auto cursor-pointer hover:no-underline font-semibold tracking-wider">Change</p>
           </div>
         <button className="w-full rounded-lg bg-OC-bright-blue py-2 px-4 text-xs text-white font-semibold tracking-wider shadow-[0_10px_20px_-10px_#3829e0] cursor-pointer hover:bg-OC-bright-blue/80 active:bg-OC-bright-blue/80 duration-200 ease-in-out">Proceed to Payment</button>
         <button className="w-fit mx-auto text-OC-desaturated-blue text-xs font-bold tracking-wider block cursor-pointer hover:text-black active:text-black">Cancel Order</button>
