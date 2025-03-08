@@ -1,0 +1,1 @@
+![Profile Card](../../../public/profile-card/images/profile-card-preview.png)

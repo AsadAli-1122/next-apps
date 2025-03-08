@@ -29,6 +29,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 /* order summary font end */
 
+/* profile card font start */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+/* profile card font end */
+
 @import "tailwindcss";
 
 @theme {
@@ -93,6 +97,14 @@
   --color-OC-desaturated-blue: hsl(224, 23%, 55%);
   --color-OC-dark-blue: hsl(223, 47%, 23%);
   /* order summary variabels end */
+
+  /* profile card variabels start */
+  --font-PC-kumbh: "Kumbh Sans", sans-serif;;
+  --color-PC-dark-cyan: hsl(185, 75%, 39%);
+  --color-PC-desaturated-blue: hsl(229, 23%, 23%);
+  --color-PC-grayish-blue: hsl(227, 10%, 46%);
+  --color-PC-dark-gray: hsl(0, 0%, 59%);
+  /* profile card variabels end */
 
 
 
