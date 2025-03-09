@@ -19,13 +19,13 @@ export default function Component() {
         </div>
         <h1 className="flex flex-col text-7xl uppercase">
           <span className="text-BACS-desaturated-red font-extralight">
-            We're
+            We&apos;re
           </span>
           <span className="">Coming</span>
           <span className="">Soon</span>
         </h1>
         <p className="text-BACS-desaturated-red">
-          Hello fellow shoppers! We're currently building our new fashion store.
+          Hello fellow shoppers! We&apos;re currently building our new fashion store.
           Add your email below to stay up-to-date with announcements and our
           launch deals.
         </p>
