@@ -13,6 +13,7 @@ export default function Home() {
       <Link href="/single-price-grid" className="underline hover:text-indigo-600 w-fit">Single Price Grid</Link>
       <Link href="/order-summary" className="underline hover:text-indigo-600 w-fit">Order Summary</Link>
       <Link href="/profile-card" className="underline hover:text-indigo-600 w-fit">Profile Card</Link>
+      <Link href="/base-apparel-coming-soon" className="underline hover:text-indigo-600 w-fit">Base Apparel Coming Soon</Link>
     </div>
   );
 }

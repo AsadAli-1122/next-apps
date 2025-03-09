@@ -1,0 +1,1 @@
+![Base Apparel Coming Soon](../../../public/base-apparel-coming-soon/images/base-apparel-coming-soon-preview.png)

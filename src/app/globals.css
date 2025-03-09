@@ -33,6 +33,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
 /* profile card font end */
 
+/* base-apparel-coming-soon font start */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+/* base-apparel-coming-soon font end */
+
 @import "tailwindcss";
 
 @theme {
@@ -99,12 +103,19 @@
   /* order summary variabels end */
 
   /* profile card variabels start */
-  --font-PC-kumbh: "Kumbh Sans", sans-serif;;
+  --font-PC-kumbh: "Kumbh Sans", sans-serif;
   --color-PC-dark-cyan: hsl(185, 75%, 39%);
   --color-PC-desaturated-blue: hsl(229, 23%, 23%);
   --color-PC-grayish-blue: hsl(227, 10%, 46%);
   --color-PC-dark-gray: hsl(0, 0%, 59%);
   /* profile card variabels end */
+
+  /* base-apparel-coming-soon variabels start */
+  --font-BACS-josefin: "Josefin Sans", sans-serif;
+  --color-BACS-desaturated-red: hsl(0, 36%, 70%);
+  --color-BACS-soft-red: hsl(0, 93%, 68%);
+  --color-BACS-grayish-red: hsl(0, 6%, 24%);
+  /* base-apparel-coming-soon variabels end */
 
 
 
